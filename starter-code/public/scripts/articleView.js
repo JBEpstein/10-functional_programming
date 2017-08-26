@@ -150,5 +150,6 @@ articleView.initAdminPage = function() {
   // REVIEW: Simply write the correct values to the page:
   $('#blog-stats .articles').text(app.Article.all.length);
   $('#blog-stats .words').text(app.Article.numWordsAll());
-};
-};
+  };
+  module.Article = Article;
+})(app);
